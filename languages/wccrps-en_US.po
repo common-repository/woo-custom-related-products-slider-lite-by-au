@@ -1,0 +1,277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Custom Related Products Slider [Lite] by AU\n"
+"POT-Creation-Date: 2016-06-25 09:58+0300\n"
+"PO-Revision-Date: 2016-06-25 09:58+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woo-custom-related-products-slider-lite.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin-menu.php:10
+msgid "WC Custom Related Products Slider by AU"
+msgstr "WC Custom Related Products Slider by AU"
+
+#: inc/admin-menu.php:10
+msgid "Custom Related Products Slider"
+msgstr "Custom Related Products Slider"
+
+#: inc/admin-menu.php:19
+msgid "Default Settings"
+msgstr "Default Settings"
+
+#: inc/admin-menu.php:21
+msgid "Related Products By Default For All Products"
+msgstr "Related Products By Default For All Products"
+
+#: inc/admin-menu.php:24
+msgid "Use Slider By Default For All Products"
+msgstr "Use Slider By Default For All Products"
+
+#: inc/admin-menu.php:27
+msgid "Output Settings"
+msgstr "Output Settings"
+
+#: inc/admin-menu.php:29
+msgid "Placement "
+msgstr "Placement "
+
+#: inc/admin-menu.php:31
+msgid "Maximum Number Of Products "
+msgstr "Maximum Number Of Products "
+
+#: inc/admin-menu.php:33
+msgid "Number Of Columns"
+msgstr "Number Of Columns"
+
+#: inc/admin-menu.php:35
+msgid "Order By"
+msgstr "Order By"
+
+#: inc/admin-menu.php:38 inc/admin-menu.php:499
+msgid "Slider Settings"
+msgstr "Slider Settings"
+
+#: inc/admin-menu.php:42
+msgid "Slider Speed In Milliseconds"
+msgstr "Slider Speed In Milliseconds"
+
+#: inc/admin-menu.php:44
+msgid "Enable Navigation"
+msgstr "Enable Navigation"
+
+#: inc/admin-menu.php:48
+msgid "Enable Pagination"
+msgstr "Enable Pagination"
+
+#: inc/admin-menu.php:51
+msgid "Enable Add To Cart Button"
+msgstr "Enable Add To Cart Button"
+
+#: inc/admin-menu.php:54
+msgid "Enable Rating"
+msgstr "Enable Rating"
+
+#: inc/admin-menu.php:56
+msgid "Enable Price"
+msgstr "Enable Price"
+
+#: inc/admin-menu.php:59
+msgid "Enable On Sale Marker"
+msgstr "Enable On Sale Marker"
+
+#: inc/admin-menu.php:63
+msgid "Slider Styling"
+msgstr "Slider Styling"
+
+#: inc/admin-menu.php:66
+msgid "Slider Style"
+msgstr "Slider Style"
+
+#: inc/admin-menu.php:69
+msgid "Add To Cart Button Style"
+msgstr "Add To Cart Button Style"
+
+#: inc/admin-menu.php:72
+msgid "Pagination And Navigation Color"
+msgstr "Pagination And Navigation Color"
+
+#: inc/admin-menu.php:74
+msgid "Font Color"
+msgstr "Font Color"
+
+#: inc/admin-menu.php:76
+msgid "Overlay Color"
+msgstr "Overlay Color"
+
+#: inc/admin-menu.php:78
+msgid "Overlay Opacity"
+msgstr "Overlay Opacity"
+
+#: inc/admin-menu.php:81
+msgid "Sale Price Background Color"
+msgstr "Sale Price Background Color"
+
+#: inc/admin-menu.php:84
+msgid "Product Title Font Size"
+msgstr "Product Title Font Size"
+
+#: inc/admin-menu.php:87
+msgid "Product Price And Cart Font Size"
+msgstr "Product Price And Cart Font Size"
+
+#: inc/admin-menu.php:113
+msgid "Simple"
+msgstr "Simple"
+
+#: inc/admin-menu.php:114
+msgid "Hover Effect 1"
+msgstr "Hover Effect 1"
+
+#: inc/admin-menu.php:115
+msgid "Hover Effect 2"
+msgstr "Hover Effect 2"
+
+#: inc/admin-menu.php:144 inc/admin-menu.php:165 inc/admin-menu.php:206
+#: inc/admin-menu.php:256 inc/admin-menu.php:301 inc/admin-menu.php:322
+#: inc/admin-menu.php:392 inc/related-products.php:62
+msgid "Yes"
+msgstr "Yes"
+
+#: inc/admin-menu.php:145 inc/admin-menu.php:166 inc/admin-menu.php:207
+#: inc/admin-menu.php:257 inc/admin-menu.php:302 inc/admin-menu.php:323
+#: inc/admin-menu.php:394 inc/related-products.php:63
+msgid "No"
+msgstr "No"
+
+#: inc/admin-menu.php:276
+msgid "Theme Style"
+msgstr "Theme Style"
+
+#: inc/admin-menu.php:277
+msgid "Plugin Style"
+msgstr "Plugin Style"
+
+#: inc/admin-menu.php:368 inc/related-products.php:43
+#: inc/related-products.php:51 inc/related-products.php:68
+#: inc/related-products.php:99 inc/related-products.php:129
+msgid "Custom Related Products"
+msgstr "Custom Related Products"
+
+#: inc/admin-menu.php:370 inc/related-products.php:53
+msgid "Default Related Products"
+msgstr "Default Related Products"
+
+#: inc/admin-menu.php:445
+msgid "Random"
+msgstr "Random"
+
+#: inc/admin-menu.php:447
+msgid "By Date - Newest First"
+msgstr "By Date - Newest First"
+
+#: inc/admin-menu.php:449
+msgid "By Date - Oldest First"
+msgstr "By Date - Oldest First"
+
+#: inc/admin-menu.php:451
+msgid "By Title - A-Z"
+msgstr "By Title - A-Z"
+
+#: inc/admin-menu.php:454
+msgid "By Title - Z-A"
+msgstr "By Title - Z-A"
+
+#: inc/admin-menu.php:478
+msgid "Before Product Data Tabs"
+msgstr "Before Product Data Tabs"
+
+#: inc/admin-menu.php:479
+msgid "After Product Data Tabs"
+msgstr "After Product Data Tabs"
+
+#: inc/admin-menu.php:480
+msgid "After All Product Information"
+msgstr "After All Product Information"
+
+#: inc/admin-menu.php:492
+msgid "Custom Related Products - Options Page"
+msgstr "Custom Related Products - Options Page"
+
+#: inc/admin-menu.php:498
+msgid "Main Settings"
+msgstr "Main Settings"
+
+#: inc/related-products.php:46
+msgid "What to use"
+msgstr "What to use"
+
+#: inc/related-products.php:49 inc/related-products.php:61
+msgid "Inherited"
+msgstr "Inherited"
+
+#: inc/related-products.php:58
+msgid "Enable Slider"
+msgstr "Enable Slider"
+
+#: inc/related-products.php:71 inc/related-products.php:102
+#: inc/related-products.php:133
+msgid "Search for a product&hellip;"
+msgstr "Search for a product&hellip;"
+
+#: inc/related-products.php:88 inc/related-products.php:122
+#: inc/related-products.php:153 inc/related-products.php:157
+msgid ""
+"Custom Related Products are products which you promote in the related "
+"products area on a product detail page."
+msgstr ""
+"Custom Related Products are products which you promote in the related "
+"products area on a product detail page."
+
+#: inc/related-products.php:317
+msgid "Related Products"
+msgstr "Related Products"
+
+#: inc/related-products.php:475 inc/related-products.php:525
+msgid "Sale!"
+msgstr "Sale!"
+
+#: woo-custom-related-products-slider-lite.php:50
+msgid "Settings"
+msgstr "Settings"
+
+#. Plugin Name of the plugin/theme
+msgid "Woo Custom Related Products Slider [Lite] by AU"
+msgstr "Woo Custom Related Products Slider [Lite] by AU"
+
+#. Description of the plugin/theme
+msgid ""
+"“Woo Custom Related Products Slider [Lite] by AU” is a WooCommerce WordPress "
+"plugin that provides you functionality of displaying for your customers "
+"default or custom related products with nice sliding and hover effects. Lite "
+"version."
+msgstr ""
+"“Woo Custom Related Products Slider [Lite] by AU” is a WooCommerce WordPress "
+"plugin that provides you functionality of displaying for your customers "
+"default or custom related products with nice sliding and hover effects. Lite "
+"version."
+
+#. Author of the plugin/theme
+msgid "AUrumWP"
+msgstr "AUrumWP"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/ilnarkan"
+msgstr "https://profiles.wordpress.org/ilnarkan"

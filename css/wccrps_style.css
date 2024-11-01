@@ -1,0 +1,320 @@
+
+.wccrps-product .wccrps-prod-title a {
+    color: #fff;
+    line-height: 1;
+}
+
+.wccrps-product {
+    padding: 2px;
+}
+.woocommerce .wccrps-product.default button.button.alt, .woocommerce .wccrps-product.default .wccrps-add-to-cart a {
+    margin-top: 5px;
+    color: #000;
+    border: 1px solid #000;
+    background-color: transparent;
+    /* padding: 7px 14px;*/
+    /*For WC ver2.2*/
+    background-image: none;
+    text-shadow: none;
+}
+
+.wccrps-product.default .wccrps-add-to-cart a {
+    background-color: #a46497;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    /*For WC ver2.2*/
+    background-image: none;
+    text-shadow: none;
+}
+
+.wccrps-product.default .wccrps-add-to-cart a:hover {
+    color: #fff;
+}
+
+.woocommerce .wccrps-product span.onsale {
+    top: 3px !important;
+    left: 3px !important;
+    z-index: 1;
+}
+
+.woocommerce .wccrps-product.hovereffect:hover span.onsale {
+    display:none;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect .wccrps-rating .star-rating {
+    margin: 5px auto;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect .wccrps-add-to-cart .quantity {
+    float: none;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect .wccrps-add-to-cart .button {
+    float: none;
+    margin-top: 5px;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect .wccrps-price span {
+    color: #fff;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect .wccrps-price small {
+    color: #fff;
+}
+
+.wccrps_related_ids .owl-buttons {
+    position: absolute;
+    top: -30px;
+    right: 0;
+
+}
+
+.wccrps_related_ids #wccrps-owl-ids .owl-controls .owl-buttons > div {
+    background: none;
+    padding: 2px;
+    border: 1px solid black;
+    color: black;
+    line-height: 0;
+    float: left;
+	opacity: 1; 
+    position: static !important;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.wccrps_related_ids #wccrps-owl-ids .owl-controls .owl-buttons .owl-next {
+    margin-left: 10px;
+}
+
+
+.wccrps_related_ids #wccrps-owl-ids .owl-controls .owl-buttons div div {
+    background: none;
+    color: black;
+	opacity: 1; 
+    position: static !important;
+	font-size:20px;
+    padding: 0;
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+/* Styling Pagination*/
+
+.wccrps_related_ids .owl-controls {
+    text-align: center;
+}
+
+.wccrps_related_ids .owl-theme .owl-controls .owl-page {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; /*IE7 life-saver */
+}
+
+.wccrps_related_ids .owl-theme .owl-controls .owl-page span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50); /*IE7 fix*/
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.wccrps_related_ids .owl-theme .owl-controls .owl-page.active span,
+.wccrps_related_ids .owl-theme .owl-controls.clickable .owl-page:hover span {
+    filter: Alpha(Opacity=100); /*IE7 fix*/
+    opacity: 1;
+}
+
+/*START - hovereffect-1*/
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-1 .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 101;
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-1:hover .overlay {
+    z-index: 101;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-1 img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    width: 100%;
+}
+
+/*
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-1:hover img {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+    filter: brightness(0.6);
+    -webkit-filter: brightness(0.6);
+}*/
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-1:hover .wccrpsss-img {
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-1 button.button, .wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-1 .wccrps-add-to-cart a {
+    z-index: 101;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+   /* padding: 7px 14px;*/
+    /*For WC ver2.2*/
+    background-image: none;
+    text-shadow: none;
+}
+
+
+
+.wccrps_related_ids #wccrps-owl-ids .added_to_cart{
+	padding: 7px 14px;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .star-rating span {
+    background: none; 
+}
+.wccrps_related_ids #wccrps-owl-ids .star-rating {
+    background: none;
+    float:none;
+}
+
+
+/*END - hovereffect-1*/
+
+/*START - hovereffect-2*/
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-2 .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-2 img {
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+    width: 100%;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-2:hover img {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-2:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-2 button.button, .wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-2 .wccrps-add-to-cart a {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+/* padding: 7px 14px;*/
+    /*For WC ver2.2*/
+    background-image: none;
+    text-shadow: none;
+}
+
+.wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-2:hover button.button, .wccrps_related_ids #wccrps-owl-ids .wccrps-product.hovereffect.hovereffect-2:hover .wccrps-add-to-cart a {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -ms-transform: translatey(0);
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
+}
+
+/*END - hovereffect-2*/
+
+
+.wccrps_related_main_wrapper{
+	margin: 15px auto;
+	    clear: both;
+}
+
+
+.wccrps_related_ids .owl-pagination{
+    position:static;
+}
+
+.wccrps-btn{
+    padding: 5px;
+}
+
+.wccrps_related_ids .wp-post-image{
+    margin:0;
+
+}
+
